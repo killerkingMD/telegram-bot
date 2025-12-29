@@ -4,7 +4,7 @@ import requests
 import telebot
 import os
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("7907868252:AAF15geicSBKFaFRpR7uLS5dCClI7SrPuak")
 BACKEND_URL = os.getenv("BACKEND_URL")
 
 if not BOT_TOKEN:
