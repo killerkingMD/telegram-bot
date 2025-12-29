@@ -4,7 +4,7 @@ import telebot
 import os
 
 BOT_TOKEN = os.getenv("7907868252:AAF15geicSBKFaFRpR7uLS5dCClI7SrPuak")
-BACKEND_URL = os.getenv("BACKEND_URL")
+BACKEND_URL = os.getenv("https://telegram-bot-lblh.onrender.com")
 
 if not BOT_TOKEN:
     raise Exception("BOT_TOKEN não definido no ambiente")
